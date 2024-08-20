@@ -1,0 +1,26 @@
+{
+  "name": "posmotri_v_okno",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "check": "prettier --check './**/*.{html,css,js}'",
+    "fix": "prettier --write './**/*.{html,css,js}'",
+    "lint": "stylelint **/*.css",
+    "lintfix": "stylelint **/*.css --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmaslov-dev/posmotri_v_okno.git"
+  },
+  "author": "gmaslov-dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gmaslov-dev/posmotri_v_okno/issues"
+  },
+  "homepage": "https://github.com/gmaslov-dev/posmotri_v_okno#readme",
+  "description": "",
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "stylelint": "^16.8.2"
+  }
+}
