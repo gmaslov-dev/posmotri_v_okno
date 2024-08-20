@@ -54,8 +54,15 @@ ol {
   align-items: start;
 }
 
+.result {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
 .result__video-container {
-  margin-block-end: 16px;
+  block-size: 386px;
+  position: relative;
 }
 
 .result__video {
@@ -69,6 +76,7 @@ ol {
 }
 
 .content__list {
+  position: relative;
   block-size: 298px;
   overflow: hidden scroll;
 }
