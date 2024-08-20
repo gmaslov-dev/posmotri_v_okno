@@ -17,7 +17,6 @@ html {
   font-size: 18px;
   background-color: #1b1919;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -55,12 +54,35 @@ ol {
   align-items: start;
 }
 
+.result__video-container {
+  margin-block-end: 16px;
+}
 
 .result__video {
   inline-size: 100%;
+  block-size: 100%;
+  object-fit: cover;
+}
+
+.title {
+  margin-block-end: 26px;
 }
 
 .content__list {
   block-size: 298px;
   overflow: hidden scroll;
+}
+
+.content__list-item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.content__video-card {
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+.content__video-card-thumbnail {
+  block-size: 103px;
+  inline-size: 194px;
 }
