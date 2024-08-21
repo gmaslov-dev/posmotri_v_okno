@@ -83,6 +83,18 @@ ol {
 
 .search-form__textfield {
   appearance: none;
+  border: none;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  background-color: transparent;
+  font-size: inherit;
+  font-family: inherit;
+  color: inherit;
+  inline-size: 225px;
+}
+
+.search-form__textfield:active {
+  background-color: aqua;
 }
 
 .search-form__checkbox-list {
