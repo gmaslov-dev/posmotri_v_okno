@@ -1,32 +1,35 @@
-<!-- ABOUT THE PROJECT -->
-## О проексте  
+# [Посмотри в окно](https://github.com/gmaslov-dev/posmotri_v_okno)
+https://github.com/gmaslov-dev/posmotri_v_okno
 
+## Описание
 
-### Создан с помощью
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
-<!-- Начало работы -->
-## Начало работы
+Этот проект представляет собой учебный проект по верстке, который предназначен для обучения основам верстки и веб-разработки. В рамках проекта мы создадим простой веб-сайт с использованием HTML, CSS.
 
-### Предварительные требования
+## Цели
 
-### Установка
+* Изучить основы HTML, CSS;
+* Использовать на практике grid и flexbox;
+* Основы работы с формами, стилизация элементов форм
+* Попрактиковаться в использовании инструментов разработчика.
 
-<!-- Примеры использования -->
-## Использование
+## Как запустить проект
 
-<!-- Дорожная карта -->
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support  
+Для запуска проекта выполните следующие шаги:
 
-<!-- Контакты -->
-## Контакты
+1. Установите Node.js и npm.
+2. Перейдите в папку с проектом.
+3. Выполните команду `npm install` для установки дополнительных пакетов liveserver.
+4. Запустите проект с помощью команды `npx live-server`.
+5. Откройте браузер и перейдите по адресу http://127.0.0.1:8080/.
+
+## Дальнейшее развитие
+
+В дальнейшем проект можно расширить, добавив новые функции и возможности. Например, можно добавить поддержку мобильных устройств, улучшить дизайн сайта или добавить интерактивные элементы.
+
+## Автор
+
+Геннадий Маслов
+
+E-mail: gennadiy.dev@yandex.ru
+
+GitHub: https://github.com/gmaslov-dev

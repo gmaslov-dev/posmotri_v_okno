@@ -20,6 +20,7 @@
   "homepage": "https://github.com/gmaslov-dev/posmotri_v_okno#readme",
   "description": "",
   "devDependencies": {
+    "live-server": "^1.2.2",
     "prettier": "^3.3.3",
     "stylelint": "^16.8.2"
   }
