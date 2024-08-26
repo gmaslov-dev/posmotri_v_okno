@@ -61,6 +61,7 @@ ol {
 
 .result__video {
   object-fit: cover;
+  object-position: center;
   inline-size: 100%;
   block-size: 100%;
 }
@@ -197,7 +198,7 @@ ol {
   font-family: Oswald, sans-serif;
   font-weight: 700;
   font-size: 75px;
-  line-height: 94%;
+  line-height: 0.94;
   text-transform: uppercase;
 }
 
@@ -207,21 +208,14 @@ ol {
 
 .content__list {
   position: relative;
-  overflow: hidden scroll;
+  overflow-y: auto;
   block-size: 298px;
   scrollbar-width: thin;
-  display: flex;
-  flex-direction: column;
-  row-gap: 30px;
-  padding: 2px;
+  padding: 2px 2px 0 2px
 }
 
-.content__list:focus {
-  outline: none;
-}
-
-.content__list:focus-visible {
-  outline: 1px solid #fff;
+.content__list-item:not(:last-child) {
+  margin-block-end: 30px;
 }
 
 .content__card-link {
@@ -233,7 +227,7 @@ ol {
 
 .content__card-link:hover {
   text-decoration: underline;
-  text-underline-offset: 5px;
+  text-underline-offset: 2px;
 }
 
 .content__card-link:focus {
@@ -249,22 +243,25 @@ ol {
 }
 
 .content__video-card {
-  inline-size: 399px;
   display: flex;
   justify-content: space-between;
 }
 
 .content__video-card-title {
+  inline-size: 187px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
   margin-block-end: 6px;
   font-family: Oswald, sans-serif;
   font-weight: 700;
   font-size: 30px;
-  line-height: 100%;
+  line-height: 1;
   text-transform: uppercase;
 }
 
 .content__video-card-description {
-  line-height: 90%;
+  line-height: 0.9;
 }
 
 .content__video-card-thumbnail {
