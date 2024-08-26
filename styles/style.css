@@ -211,7 +211,7 @@ ol {
   overflow-y: auto;
   block-size: 298px;
   scrollbar-width: thin;
-  padding: 2px 2px 0 2px
+  padding: 2px;
 }
 
 .content__list-item:not(:last-child) {
